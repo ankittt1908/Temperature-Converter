@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter">
+            <h1>Celsius <==> Fahrenheit</h1>
+            <label for="temperature">Convert from : </label>
+            <select name="" id="temperature">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <br><br>
+        </div>
+        <div>
+            <div class="form-div">
+                <label for="celsius">Celsius : </label>
+                <input type="number" id="celsius" placeholder="Enter Celsius">
+            </div>
+            <div class="form-div">
+                <label for="fahrenheit">Fahrenheit : </label>
+                <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit">
+            </div>
+            <br>
+            <div>
+                <button type="submit" id="submit-btn" onclick="temperatureConvert()">Convert</button>
+            </div>
+        </div>
+        <div class="result">
+            <h4>Result: </h4>
+            <p id = "result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
