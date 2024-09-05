@@ -3,12 +3,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(stock-photo.jpg);
+    background-image: url(cover-2.jpg);
+    
     height: 100vh;
     background-color: rgb(77, 74, 74);
 }
 .container{
-    background-image: url(stock-photo.jpg);
+    background-image: url(cover-2.jpg);
     text-align: center;
     background-color: rgb(86, 86, 86);
     width: 500px;
